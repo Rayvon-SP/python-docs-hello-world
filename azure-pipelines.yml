@@ -14,9 +14,9 @@ steps:
 
   - task: AzureWebApp@1
     inputs:
-      azureSubscription: '<your-service-connection>'
+      azureSubscription: '9dc3188f-ca2d-46ca-9399-e748d0c6d28c'
       appType: 'webAppLinux'
-      appName: '<your-unique-app-name>'
+      appName: 'RayvonAPP'
       package: '.'
 
 
